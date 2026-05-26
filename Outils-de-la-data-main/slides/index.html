@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outils de la Data - M2 Développement Informatique</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f9fb;
+            color: #1f2d3d;
+        }
+        header {
+            background: #0a6efd;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px 80px;
+        }
+        section {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+        .card {
+            border: 1px solid #e1e8f0;
+            border-radius: 10px;
+            padding: 16px;
+            background: #fdfefe;
+        }
+        .tag {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            background: #e8f0ff;
+            color: #0a58ca;
+        }
+        .link-list a {
+            display: inline-block;
+            margin-top: 12px;
+            color: #0a6efd;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            header {
+                padding: 30px 15px;
+            }
+            main {
+                padding: 24px 15px 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Outils de la Data</h1>
+        <p>Master 2 Développement Informatique — Formateur : Abid Hamza</p>
+        <p>Parcours guidé entre outils Data et pratiques Data Engineer</p>
+    </header>
+    <main>
+        <section>
+            <h2>Parcours Data Tools</h2>
+            <p>Pour comprendre les fondamentaux et visualiser rapidement les données, commencez par ces outils. Chaque outil correspond à un exercice du dépôt.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Apache Superset</h3>
+                    <p>Créez un dashboard métier complet à partir des données de ventes.</p>
+                    <span class="tag">Exercice 01</span>
+                </div>
+                <div class="card">
+                    <h3>Metabase</h3>
+                    <p>Construisez un espace d’exploration self-service pour les équipes métier.</p>
+                    <span class="tag">Exercice 02</span>
+                </div>
+                <div class="card">
+                    <h3>ELK Stack (Kibana)</h3>
+                    <p>Analysez des logs applicatifs et créez des vues opérationnelles.</p>
+                    <span class="tag">Exercice 03</span>
+                </div>
+                <div class="card">
+                    <h3>Grafana + Prometheus</h3>
+                    <p>Surveillez une plateforme et déclenchez des alertes fiables.</p>
+                    <span class="tag">Exercice 05</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Parcours Data Engineer</h2>
+            <p>Ces ateliers et exercices structurent un pipeline complet, du traitement au déploiement.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Apache Spark</h3>
+                    <p>Mettre en place un notebook de traitement massif avec PySpark.</p>
+                    <span class="tag">Exercice 04</span>
+                </div>
+                <div class="card">
+                    <h3>Apache Airflow</h3>
+                    <p>Orchestrer des DAGs complets : extraction, transformation, reporting.</p>
+                    <span class="tag">Exercice 06</span>
+                </div>
+                <div class="card">
+                    <h3>dbt</h3>
+                    <p>Structurer les modèles SQL (staging, marts, tests) comme en production.</p>
+                    <span class="tag">Exercice 07</span>
+                </div>
+                <div class="card">
+                    <h3>Atelier Stack Moderne</h3>
+                    <p>Assembler Superset, Airflow, dbt, Spark et Grafana sur un même projet.</p>
+                    <span class="tag">Atelier 03</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Comment s’entraîner</h2>
+            <ul>
+                <li>Chaque exercice contient un scénario métier, des données synthétiques et un guide complet.</li>
+                <li>Les ateliers proposent des projets plus longs pour simuler des conditions réelles.</li>
+                <li>Les corrections sont protégées par mot de passe (Abidexercice123) et situées dans chaque dossier.</li>
+                <li>Les sections “Livrables” précisent ce que vous devez produire.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Répartition recommandée</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Phase 1 — Explorer</h3>
+                    <p>Superset, Metabase, ELK : comprendre les données existantes.</p>
+                </div>
+                <div class="card">
+                    <h3>Phase 2 — Industrialiser</h3>
+                    <p>Grafana, Spark, Airflow, dbt : mettre en production un pipeline robuste.</p>
+                </div>
+                <div class="card">
+                    <h3>Phase 3 — Intégrer</h3>
+                    <p>Ateliers complets : construire une stack moderne de bout en bout.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Liens utiles</h2>
+            <div class="link-list">
+                <a href="https://github.com/AbidHamza/M2_DI_Outils-de-la-data" target="_blank">Dépôt GitHub</a><br>
+                <a href="https://superset.apache.org/" target="_blank">Apache Superset</a><br>
+                <a href="https://www.metabase.com/" target="_blank">Metabase</a><br>
+                <a href="https://www.elastic.co/what-is/elk-stack" target="_blank">ELK Stack</a><br>
+                <a href="https://grafana.com/" target="_blank">Grafana</a><br>
+                <a href="https://spark.apache.org/" target="_blank">Apache Spark</a><br>
+                <a href="https://airflow.apache.org/" target="_blank">Apache Airflow</a><br>
+                <a href="https://docs.getdbt.com/" target="_blank">dbt</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Questions ?</h2>
+            <p>Tout se passe sur le dépôt GitHub : issues, discussions, corrections.</p>
+            <p>Bon apprentissage et amusez-vous sur les outils !</p>
+        </section>
+    </main>
+</body>
+</html>
+                    <ul>
+                        <li><strong>Matplotlib</strong> : Visualisation de base, flexible</li>
+                        <li><strong>Seaborn</strong> : Statistiques visuelles, interface haut niveau</li>
+                        <li><strong>Plotly</strong> : Interactif, dashboards web, 3D</li>
+                        <li><strong>Bokeh</strong> : Visualisations web, streaming</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- Slide 9: ML -->
+            <section>
+                <section>
+                    <h2>7. Outils de machine learning</h2>
+                    <h3>Frameworks ML</h3>
+                    <ul>
+                        <li><strong>Scikit-learn</strong> : ML Python, algorithmes classiques</li>
+                        <li><strong>TensorFlow</strong> : Deep learning, production-ready</li>
+                        <li><strong>PyTorch</strong> : Deep learning, research-friendly</li>
+                        <li><strong>XGBoost</strong> : Gradient boosting, très performant</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>MLOps</h3>
+                    <ul>
+                        <li><strong>MLflow</strong> : Gestion d'expériences, tracking, déploiement</li>
+                        <li><strong>Kubeflow</strong> : ML sur Kubernetes, pipelines</li>
+                        <li><strong>Weights & Biases</strong> : Experiment tracking, visualisation</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>AutoML</h3>
+                    <ul>
+                        <li><strong>Auto-sklearn</strong> : AutoML pour scikit-learn</li>
+                        <li><strong>H2O AutoML</strong> : AutoML complet, interface simple</li>
+                        <li><strong>Google AutoML</strong> : Cloud-based, no-code</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- Slide 10: Orchestration -->
+            <section>
+                <section>
+                    <h2>8. Outils de déploiement et orchestration</h2>
+                    <h3>Orchestration de workflows</h3>
+                    <ul>
+                        <li><strong>Apache Airflow</strong> : DAGs, scheduling, monitoring</li>
+                        <li><strong>Prefect</strong> : Workflow moderne, Python-native</li>
+                        <li><strong>Dagster</strong> : Data orchestration, asset-based</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Containers et déploiement</h3>
+                    <ul>
+                        <li><strong>Docker</strong> : Containerisation, portabilité</li>
+                        <li><strong>Kubernetes</strong> : Orchestration, auto-scaling</li>
+                        <li><strong>Docker Compose</strong> : Multi-container, développement</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>CI/CD</h3>
+                    <ul>
+                        <li><strong>GitHub Actions</strong> : Intégration GitHub, automatisation</li>
+                        <li><strong>GitLab CI/CD</strong> : Pipelines complets, DevOps</li>
+                        <li><strong>Jenkins</strong> : Open source, extensible, mature</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- Slide 11: Choix -->
+            <section>
+                <section>
+                    <h2>9. Choix des outils selon le contexte</h2>
+                    <h3>Critères de sélection</h3>
+                    <ol>
+                        <li><strong>Volume de données</strong>
+                            <ul>
+                                <li>Petit (&lt; 1GB) : Pandas, SQLite</li>
+                                <li>Moyen (1GB - 1TB) : PostgreSQL, Pandas</li>
+                                <li>Grand (&gt; 1TB) : Spark, Data Warehouse</li>
+                            </ul>
+                        </li>
+                        <li><strong>Vélocité</strong> : Batch vs Real-time</li>
+                        <li><strong>Budget</strong> : Open source vs Commercial</li>
+                        <li><strong>Compétences</strong> : Python, SQL, No-code</li>
+                        <li><strong>Intégration</strong> : Cloud vs On-premise</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Matrice de décision</h3>
+                    <table style="font-size: 0.7em;">
+                        <thead>
+                            <tr>
+                                <th>Besoin</th>
+                                <th>Petit projet</th>
+                                <th>Moyen projet</th>
+                                <th>Grand projet</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Stockage</td>
+                                <td>SQLite/PostgreSQL</td>
+                                <td>PostgreSQL/MySQL</td>
+                                <td>Data Warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>Traitement</td>
+                                <td>Pandas</td>
+                                <td>Spark/Dask</td>
+                                <td>Spark/Flink</td>
+                            </tr>
+                            <tr>
+                                <td>Analyse</td>
+                                <td>Jupyter/Python</td>
+                                <td>Superset/Metabase</td>
+                                <td>Tableau/Power BI</td>
+                            </tr>
+                            <tr>
+                                <td>ML</td>
+                                <td>Scikit-learn</td>
+                                <td>Scikit-learn/XGBoost</td>
+                                <td>TensorFlow/PyTorch</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+
+            <!-- Slide 12: Bonnes pratiques -->
+            <section>
+                <section>
+                    <h2>10. Bonnes pratiques et recommandations</h2>
+                    <h3>Bonnes pratiques générales</h3>
+                    <ol>
+                        <li><strong>Versioning</strong>
+                            <ul>
+                                <li>Code : Git</li>
+                                <li>Données : DVC</li>
+                                <li>Modèles : MLflow</li>
+                            </ul>
+                        </li>
+                        <li><strong>Documentation</strong> : README, Docstrings, Docs pipelines</li>
+                        <li><strong>Testing</strong> : Tests unitaires, intégration, données</li>
+                        <li><strong>Monitoring</strong> : Logs structurés, métriques, alertes</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Architecture recommandée</h3>
+                    <div class="diagram" style="font-size: 0.6em;">
+                        <pre>
+┌─────────────────────────────────────────┐
+│         Sources de données              │
+│  (APIs, DBs, Files, Streams)            │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────┐
+│      Ingestion (Airflow, NiFi)           │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────┐
+│   Stockage (Data Lake / Warehouse)      │
+└──────────────┬──────────────────────────┘
+               │
+        ┌──────┴──────┐
+        ↓             ↓
+┌──────────────┐  ┌──────────────┐
+│  Traitement  │  │   Analyse    │
+│  (Spark)     │  │  (BI Tools)  │
+└──────┬───────┘  └──────┬───────┘
+       │                 │
+       └────────┬────────┘
+                ↓
+       ┌─────────────────┐
+       │  Machine Learning│
+       │  (MLflow, Kubeflow)│
+       └─────────────────┘
+                        </pre>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Slide 13: Conclusion -->
+            <section>
+                <section>
+                    <h2>Conclusion</h2>
+                    <h3>Points clés à retenir</h3>
+                    <ol>
+                        <li><strong>Pas de solution unique</strong> : Choisir selon le contexte</li>
+                        <li><strong>Écosystème ouvert</strong> : Beaucoup d'outils open source</li>
+                        <li><strong>Évolution rapide</strong> : Rester à jour</li>
+                        <li><strong>Pratique essentielle</strong> : Mettre en pratique</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Prochaines étapes</h3>
+                    <ol>
+                        <li>Compléter les exercices pratiques</li>
+                        <li>Expérimenter avec différents outils</li>
+                        <li>Construire un projet complet</li>
+                        <li>Partager et collaborer</li>
+                    </ol>
+                </section>
+                <section>
+                    <h2>Questions ?</h2>
+                    <p><strong>Contact : Abid Hamza</strong></p>
+                    <p style="margin-top: 50px;">Merci pour votre attention !</p>
+                    <p><strong>Master 2 - Data Intelligence</strong><br>
+                    <strong>Outils de la Data</strong></p>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            controls: true,
+            progress: true,
+            center: true,
+            touch: true,
+            loop: false,
+            rtl: false,
+            navigationMode: 'default',
+            shuffle: false,
+            fragments: true,
+            fragmentInURL: false,
+            embedded: false,
+            help: true,
+            pause: true,
+            showNotes: false,
+            autoPlayMedia: null,
+            preloadIframes: null,
+            autoAnimate: true,
+            autoAnimateMatcher: null,
+            autoAnimateEasing: 'ease',
+            autoAnimateDuration: 1.0,
+            autoAnimateUnmatched: true,
+            autoSlide: 0,
+            autoSlideStoppable: true,
+            autoSlideMethod: null,
+            defaultTiming: null,
+            mouseWheel: false,
+            previewLinks: false,
+            postMessage: true,
+            postMessageEvents: false,
+            focusBodyOnPageVisibilityChange: true,
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+            pdfSeparateFragments: true,
+            pdfPageHeightOffset: -1,
+            viewDistance: 3,
+            mobileViewDistance: 2,
+            view: null,
+            container: null,
+            margin: 0.1,
+            minScale: 0.2,
+            maxScale: 2.0,
+            disableLayout: false
+        });
+    </script>
+</body>
+</html>
+
