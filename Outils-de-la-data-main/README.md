@@ -1,10 +1,10 @@
-# M2 Développement Informatique - Outils de la Data
+# M1 LDFS - Outils de la Data
 
 ## Bienvenue dans cette formation !
 
 Bonjour et bienvenue dans ce cours sur les **Outils de la Data** !
 
-Je suis **Abid Hamza**, votre formateur, et je suis ravi de vous accompagner dans cette formation. Ce dépôt contient toutes les ressources nécessaires pour maîtriser les outils essentiels de la data science et du traitement de données.
+Je suis **Mouad Abouqateb**, votre formateur, et je suis ravi de vous accompagner dans cette formation. Ce dépôt contient toutes les ressources nécessaires pour maîtriser les outils essentiels de la data science et du traitement de données.
 
 **Cette formation est conçue pour être entièrement autonome.** Vous pouvez travailler à votre rythme, suivre les instructions détaillées dans chaque exercice, et progresser étape par étape.
 
@@ -130,8 +130,8 @@ python correction.py
 
 2. **Cloner votre fork** :
    ```bash
-   git clone https://github.com/VOTRE_USERNAME/M2_DI_Outils-de-la-data.git
-   cd M2_DI_Outils-de-la-data
+   git clone https://github.com/BioStatsMouadical/DataTools.git
+   cd DataTools
    ```
 
 3. **Créer une branche pour votre travail** :
@@ -203,4 +203,4 @@ Pour toute question, n'hésitez pas à ouvrir une issue sur ce dépôt GitHub.
 
 **Bon courage et bon apprentissage !**
 
-*Abid Hamza - Formateur*
+*Mouad Abouqateb - Formateur*
